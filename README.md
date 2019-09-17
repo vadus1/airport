@@ -3,22 +3,24 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+Quickstart
 
-* Ruby version
+Installation
+* Rbenv [article on install](https://gist.github.com/stonehippo/cc0f3098516fb52390f1)
+* MySQL - 5.6!!!!!!
+* Install ruby **2.2.5**  !!!!!
 
-* System dependencies
+    1) **rbenv install 2.2.5**
 
-* Configuration
+    2) **gem install bundler**
 
-* Database creation
+* Clone repo
 
-* Database initialization
+* Go to project and run:
 
-* How to run the test suite
+    1) **bundle install**
+    
+    2) Update database credentials if needed (**config/database.yml** file)
+    
+    3) **rake db:setup**
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
